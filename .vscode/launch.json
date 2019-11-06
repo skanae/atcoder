@@ -8,14 +8,14 @@
             "name": "g++.exe build and debug active file",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.out",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "C:\\Strawberry\\c\\bin\\gdb.exe",
+            "miDebuggerPath": "/user/bin/gdb",
             "setupCommands": [
                 {
                     "description": "gdb の再フォーマットを有効にする",

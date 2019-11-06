@@ -7,16 +7,16 @@
             "type": "shell",
             "label": "cpp.exe build active file",
             "command": "g++",//"C:\\Strawberry\\c\\bin\\cpp.exe",
-            "isShellCommand": true,
+            // "isShellCommand": true,
             "args": [
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${fileDirname}\\${fileBasenameNoExtension}.out"
             ],
-            "options": {
+            /*"options": {
                 "cwd": "C:\\Strawberry\\c\\bin"
-            },
+            },*/
             "problemMatcher": [
                 "$gcc"
             ],
