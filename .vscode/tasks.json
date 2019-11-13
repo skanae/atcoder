@@ -12,7 +12,7 @@
                 "-g",
                 "${file}",
                 "-o",
-                "a.out"
+                "${fileDirname}\\${fileBasenameNoExtension}.out"
             ],
             /*"options": {
                 "cwd": "C:\\Strawberry\\c\\bin"

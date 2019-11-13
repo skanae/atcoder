@@ -71,4 +71,8 @@
         "typeinfo": "cpp",
         "valarray": "cpp"
     }
+     // ホワイトスペースを視覚化
+    "editor.renderWhitespace": "all",
+    // 行の折り返し
+    "editor.wordWrap": "on",
 }
